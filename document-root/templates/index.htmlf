@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>WikiView</title>
+    <script type="text/javascript" src="/static/js/oddjobs.ajax.js"></script>
+    <script type="text/javascript" src="/static/js/oddjobs.func.js"></script>
+    <script type="text/javascript" src="/static/js/oddjobs.widgets.js"></script>
+    <script type="text/javascript" src="/static/js/final.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.js"></script>
+    <script type="text/javascript" src="/static/js/dimensions.js"></script>
+    <script type="text/javascript" src="/static/js/autocomplete.js"></script>
+
+    <link rel="stylesheet" href="/static/css/final.css"/>
+    <link rel="stylesheet" href="/static/css/autocomplete.css"/>
+
+  </head>
+  <body onload="started()">
+    <div id="container">
+      <div id="content">
+	<img src="/static/images/logo.png" alt="wikiView Logo"/><br/><br/>
+	<p>This site basically generates a pretty graph of a miniscule subset of the English Wikipedia.</p>
+	Which article would you like to center on?<br/><br/>
+	<label for="submitButton">Center Article: </label><input type="text" id="query-name" value=""/><input type="submit" id="submitButton" value="Submit"/>
+	<div id="result"></div>
+      </div>
+      <div id="footer">
+	<img class="centered" src="/static/images/lisplogo_fancy_256.png" alt="lispLogo" height="142px"/>
+      </div>
+    </div>
+  </body>
+</html>
